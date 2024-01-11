@@ -3,7 +3,7 @@
 echo "zip unzip ufw curl python python3 python3-pip openssl iptables lsof pv boxes at mlocate gawk bc jq curl socat netcat net-tools cowsay figlet lolcat apache2" | xargs apt-get install
 
 # carpetas y archivos.
-sdir=( "exec" )
+sdir=( "/etc/adm-lite" )
 url=( "https://gitlab.com/upxz/chukkmod-files/-/raw/main/bash" )
 sfile=( "${sdir[@]}/msg" "${sdir[*]}/menu_inst" "${sdir[0]}/cabecalho" "${sdir[@]}/menu" "${sdir[$?]}/usercodes" "${sdir}/ferramentas" )
 
