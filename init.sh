@@ -1,7 +1,7 @@
 #!/bin/bash
-
+# @drowkid01 | t.me/drowkid01
 echo "zip unzip ufw curl python python3 python3-pip openssl iptables lsof pv boxes at mlocate gawk bc jq curl socat netcat net-tools cowsay figlet lolcat apache2" | xargs apt-get install
-
+clear
 # carpetas y archivos.
 sdir=( "/etc/adm-lite" )
 url=( "https://gitlab.com/upxz/chukkmod-files/-/raw/main/bash" )
@@ -20,11 +20,11 @@ cat >> ${sdir[@]}/menu_credito << !?
 Verified【 $(echo -e "${datos}"| awk '{print $1}')
 !?
 
-cat << eOf > ${sdir[@]}/name
+cat << eOf > ${sdir[0]}/name
 $(echo -e "${datos}"| awk '{print $2}')
 eOf
 
-ln -s ${sdir[@]}/name /root/name
+ln -s ${sdir[*]}/name /root/name
 source /etc/adm-lite/msg
 msg -bar
 msg -ama " Comando principal: menu, chukk, adm"
