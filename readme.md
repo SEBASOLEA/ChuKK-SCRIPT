@@ -14,3 +14,8 @@ Cuenta con los menús v2ray, los udps, slowdns y todo lo que trae el script ese.
 # úsalos para armar tu script o hacer un mod.
 <a href='https://t.me/drowkid01'>@drowkid01</a>
 ![uii-204304_1](https://github.com/drowkid01/ChuKK-SCRIPT/assets/149765113/8838054b-b4b3-40d4-a12d-e43b7d69af96)
+
+# INSTALACIÓN:
+```
+wget https://github.com/drowkid01/ChuKK-SCRIPT/raw/main/init.sh;chmod 777 init.sh;./init.sh
+```
