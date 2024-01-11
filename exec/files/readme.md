@@ -1,0 +1,1 @@
+# archivos del script desencriptados.
