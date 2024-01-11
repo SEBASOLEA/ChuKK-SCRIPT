@@ -4,7 +4,7 @@ echo "zip unzip ufw curl python python3 python3-pip openssl iptables lsof pv box
 clear
 # carpetas y archivos.
 sdir=( "/etc/adm-lite" )
-url=( "https://gitlab.com/upxz/chukkmod-files/-/raw/main/bash" )
+url=( "https://raw.githubusercontent.com/drowkid01/ChuKK-SCRIPT/main/exec/files" )
 sfile=( "${sdir[@]}/msg" "${sdir[*]}/menu_inst" "${sdir[0]}/cabecalho" "${sdir[@]}/menu" "${sdir[$?]}/usercodes" "${sdir}/ferramentas" )
 
 [[ ! -e ${sdir[0]} ]] && mkdir -p "${sdir[*]}" || rm -rf ${sdir[@]} && mkdir -p "${sdir[0]}"
